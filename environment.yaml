@@ -1,0 +1,32 @@
+name: CREATE
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - bioconda
+  - dglteam/label/cu121
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.1.2
+  - pytorch-cuda=12.1
+  - torchdata
+  - openbabel
+  - pdbfixer
+  - swig
+  - setuptools=69.5.1
+  - huggingface_hub
+  - jupyter
+  - notebook
+  - transformers
+  - pandas
+  - datasets
+  - biopython=1.82
+  - scikit-learn
+  - matplotlib
+  - evaluate
+  - simplejson
+  - accelerate
+  - py3dmol
+  - fair-esm
+
