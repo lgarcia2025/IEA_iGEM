@@ -12,7 +12,7 @@ dependencies:
   - transformers
   - pandas
   - datasets
-  - biopython==1.8
+  - biopython==1.80
   - scikit-learn
   - matplotlib
   - evaluate
